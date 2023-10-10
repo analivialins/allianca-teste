@@ -18,7 +18,7 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
 
 2. Navegue até o diretório do projeto:
     ```bash
-    cd seu-projeto
+    cd allianca-teste
     ```
 
 2. Instale as dependências usando o Yarn:
