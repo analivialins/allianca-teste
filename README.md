@@ -1,27 +1,35 @@
-# React + TypeScript + Vite
+# To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um aplicativo de To-Do List simples construído com TypeScript, React e Styled Components.
 
-Currently, two official plugins are available:
+## Pré-requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Antes de começar, certifique-se de ter o [Node.js](https://nodejs.org/) e o [Yarn](https://yarnpkg.com/) instalados no seu sistema.
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Siga os passos abaixo para configurar e executar o projeto localmente:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone o repositório para o seu sistema:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+   ```bash
+    git clone https://github.com/analivialins/allianca-teste.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd seu-projeto
+    ```
+
+2. Instale as dependências usando o Yarn:
+    ```bash
+    yarn 
+    ```
+## Uso
+
+Após a instalação, você pode iniciar o servidor de desenvolvimento local com o seguinte comando:
+```bash
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Isso iniciará o servidor de desenvolvimento e abrirá o aplicativo no seu navegador padrão. Qualquer alteração que você fizer nos arquivos será automaticamente recarregada no navegador.
